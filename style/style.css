@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Noto Sans JP', sans-serif;
-    background-image: url("../img/bg.svg");
+    background-image: url("../img/bg2.svg");
     --tw-bg-opacity: 1;
     background-color: rgba(237,233,254,var(--tw-bg-opacity));
     background-size: 290px; /* Resize the background image to cover the entire container */
