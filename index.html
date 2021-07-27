@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+ <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>My personal website</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -12,21 +12,24 @@
   </head>
 
 
-  <body>
-    <div class="box">
-      <div class="box2">
-        <h1 class="box3"><span class="box4">Hawa</span> Hanani</h1>
-        <p class="box5">Living in Malaysia. Speak in Malay, English & Arabic. Web developer by day, Chef by night</p>
-        <p class="box6">👩‍🎓 Diploma in Computer Science</p>
-        <p class="box6">👩‍🎓 Bachelor in Software Engineering</p>
-      </div>
+<body>
+    <div class="box1" id="ubahTinggi">
+       <div class="box2">
+           <h1 class="box3"><span class="box4">Hawa</span> Hanani</h1>
+              <p class="box5">Get to know me more!</p> 
+                  <p class="box6">👩‍🎓Undergraduate student of IIUM</p>
+                      <p class="box6">👩‍🎓Vicegerent of Allah, knowledge seeker, choc addict.</p>
+                 
+       </div> 
     </div>
     <script>
     window.addEventListener('load',function()
     {
-      document.getElementByClassName("box").style.height = window.innerHeight + "px";
+         
+      document.getElementById("ubahTinggi").style.height = window.innerHeight + "px";
     })
+      
 
     </script>
-  </body>
+</body>
 </html>
