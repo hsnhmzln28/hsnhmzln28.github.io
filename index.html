@@ -21,12 +21,28 @@
                       <p class="box6">👩‍🎓Vicegerent of Allah, knowledge seeker, choc addict.</p>
                  
        </div> 
+       <div class="box2" id="countdown">
+           test
+       </div>
     </div>
     <script>
     window.addEventListener('load',function()
     {
          
       document.getElementById("ubahTinggi").style.height = window.innerHeight + "px";
+        
+        var now = new Date().getTime();
+        
+        var nextYear = "Jan 1, " + (new Date().getFullYear() + 1);
+        var countDownDate = Date.parse(nextYear);
+        var distance = countDownDate - now;
+        var year = new Date().getFullYear() + 1;
+        
+        //calculation
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        document.getElementById("countdown").innerHTML = days + " days to " + year + " !!";
+        
+        
     })
       
 
