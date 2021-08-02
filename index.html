@@ -53,6 +53,18 @@
         document.getElementById("countdown").innerHTML = days + " days to " + year + " !!";
         
         
+        //change bg image every 2 Aug 
+        var month = 7 // Starts at 0, Jan = 0, Dec = 11, Aug = 7;
+        var date = 3
+        var nowMonth = new Date().getMonth();
+        var nowDate = new Date.getDate();
+        if (nowMonth === month && nowDate === date)
+            document.body.style.backgroundImage = "url(img/bg4.svg)"
+            document.body.style.backgroundColor = "#F5F3FF"
+        
+    
+        
+        
     })
       
 
